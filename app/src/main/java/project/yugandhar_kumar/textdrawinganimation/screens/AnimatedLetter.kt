@@ -81,7 +81,7 @@ fun AnimatedLetter(letter: String, delayMillis: Long, onClick: () -> Unit) {
             style = TextStyle(
                 fontSize = 40.sp,
                 fontWeight = FontWeight.Bold,
-                color = Color(0xFFF4D03F),
+                color = Color(0xFF5459A9),
                 shadow = Shadow(
                     color = Color.Black.copy(alpha = 0.75f),
                     offset = with(LocalDensity.current) { Offset(0.dp.toPx(), textShadow) },

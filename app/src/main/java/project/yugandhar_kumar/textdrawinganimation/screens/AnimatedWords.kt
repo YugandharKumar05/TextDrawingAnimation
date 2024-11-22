@@ -26,14 +26,14 @@ fun AnimatedWords() {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color(0xFFF4D03F)),
+            .background(Color(0xFFFFFFFF)),
         contentAlignment = Alignment.Center
     ) {
         Column(
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            listOf("ANDROID", "IS", "COOL").forEach { word ->
+            listOf("ARIQT", "INTERNATIONAL", "A", "Developers", "First", "Company").forEach { word ->
                 AnimatedWord(word = word) { letter ->
                     selectedLetters = selectedLetters + letter
                     isCardVisible = true
@@ -50,4 +50,3 @@ fun AnimatedWords() {
         }
     }
 }
-
