@@ -82,7 +82,7 @@ fun AnimatedWords() {
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            listOf("ARIQT", "IS", "COOL").forEach { word ->
+            listOf("ANDROID", "IS", "COOL").forEach { word ->
                 AnimatedWord(word = word) { letter ->
                     selectedLetters = selectedLetters + letter
                     isCardVisible = true
